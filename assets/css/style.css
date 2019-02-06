@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* sizing */
+    margin: auto;
+    
+    /* styling */
+    background: url("../images/cloudy-day.png");
+    
+    font-family: 'EB Garamond', serif;
+
+    color: #777777;
+}
+
+/* ********** NAV BAR ************ */
+
+/* entire navbar */
+.navbar {
+    /* styling */
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* logo + menu  */
+.container {
+    /* sizing */
+    max-width: 960px;
+    margin: auto;
+    
+    /*position */
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo_name {
+    /* sizing */
+    padding: 20px;
+
+    /* styling */
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* position */
+}
+
+nav li {
+    list-style: none;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.menu_options {
+    display: flex;
+}
+
+/* *************** COMMON *******************  */
+
+.container_main {
+    /* sizing */
+    width: 960px;
+    margin: 20px auto;
+
+    /* styling */
+    background-color: #ffffff;  
+    border: 1px solid #dddddd;  
+}
+
+.container_border {
+    margin: 20px;
+}
+
+
+.page_title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+.container_content {                    
+    width: 100%;                                                
+}
+
+/* ***************  ABOUT PAGE  *******************  */
+
+.my_picture {
+    padding-right: 20px;
+
+    /* sizing */
+    width: 200px;
+    max-height: 200px;    
+}
+
+/* main content */
+.about_me {
+    /* styling */
+    line-height: 2.0rem;
+}
+
+/* ***************  PORTFOLIO PAGE  *******************  */
+
+.container_portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pimg {
+    height: 200px;
+    width: 280px;
+    
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pimg1 {
+    background: url(../images/pimg1.png);
+}
+
+.pimg2 {
+    background: url(../images/pimg2.jpg);
+}
+
+.pimg3 {
+    background: url(../images/pimg3.jpg);
+}
+
+.pimg_caption {
+    /* sizing */
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+       
+    /* styling */
+    background-color: #4aaaa5;
+}
+
+
+/* ***************  CONTACT PAGE  *******************  */
+
+.container_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_labels {
+    padding: 5px  0;
+}
+
+.form_text_inputs {
+    padding: 5px;
+    font-size: .8em;
+}
+
+.submit {
+    /* sizing */
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 10px;
+
+    /* styling */
+    color: white;
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+}
