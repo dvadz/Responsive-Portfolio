@@ -179,3 +179,26 @@ hr {
     border: 1px solid #4aaaa5;
     background-color: #4aaaa5;
 }
+
+@media screen and (max-width: 992px) {
+    .logo_name {
+        color: red; 
+    }
+  }
+
+  
+
+@media screen and (max-width: 768px) {
+    .logo_name {
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .logo_name {
+        color: green; 
+    }
+}
+
+/* Use three `@media screen` tags, each with one of these  */
+/* `max-width`s: `980px`, `768px` and `640px`. */
