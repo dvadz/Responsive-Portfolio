@@ -100,6 +100,9 @@ hr {
     padding-right: 20px;
 
     /* sizing */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
     width: 200px;
     max-height: 200px;    
 }
@@ -180,10 +183,27 @@ hr {
     background-color: #4aaaa5;
 }
 
+
+
+/* ----------------------  MEDIA QUERIES--------------------------- */
+
 @media screen and (max-width: 992px) {
     .logo_name {
         color: red; 
     }
+
+    /* common */
+    .container_main {
+        width: 80%;
+    }
+
+    /* about */
+
+
+    /* portfolio */
+
+
+    /* contact */
   }
 
   
@@ -192,13 +212,69 @@ hr {
     .logo_name {
         color: yellow;
     }
+
+
+    /* common */
+
+
+    /* about */
+
+
+    /* portfolio */
+
+
+    /* contact */
+
 }
 
 @media screen and (max-width: 640px) {
     .logo_name {
         color: green; 
     }
+
+
+    /* common */
+
+
+    /* about */
+    .my_picture {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    img_container {
+        width: 100%;
+    }
+
+    /* portfolio */
+
+
+    /* contact */
 }
 
-/* Use three `@media screen` tags, each with one of these  */
-/* `max-width`s: `980px`, `768px` and `640px`. */
+
+/* iPhone 6/7/8 - 375 x 667 */
+@media screen and (max-width: 375px) {
+    .logo_name {
+        color: green; 
+    }
+
+
+    /* common */
+
+
+    /* about */
+    .my_picture {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    img_container {
+        width: 100%;
+    }
+
+    /* portfolio */
+
+
+    /* contact */
+}    
