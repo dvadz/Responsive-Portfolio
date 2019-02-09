@@ -256,7 +256,15 @@ hr {
     }
 
     /* portfolio */
+    .container_portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .pimg {
+        width: 80%;
+        margin-bottom: 40px;
+    }
 
     /* contact */
 }
