@@ -94,6 +94,7 @@ hr {
 /* ***************  ABOUT PAGE  *******************  */
 
 .my_picture {
+    float: left;
     padding-right: 20px;
 
     /* sizing */
@@ -228,6 +229,9 @@ hr {
 @media screen and (max-width: 640px) {
     .logo_name {
         color: blue;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
     }
 
     .container {
@@ -243,12 +247,12 @@ hr {
 
     /* about */
     .my_picture {
+        float: none;
+        width: 100%;
+        object-fit: contain;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    img_container {
-        width: 100%;
     }
 
     /* portfolio */
